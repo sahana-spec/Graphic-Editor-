@@ -1,1 +1,201 @@
+PROMPT 1:Requirements: Create a repository in GitHub. Submit the link to the GitHub repository in Moodle. (In the online text field provided in the assignment) Daily push to GitHub is mandator.
+Ans:2D Graphics Editor Assignment
+1. Repository Creation (Day 1)
 
+Create a GitHub repository named:
+
+2D-Graphics-Editor
+Add a README.md file.
+Push the initial repository to GitHub.
+
+Commit Message:
+
+git commit -m "Initial repository setup"
+2. Project Structure
+2D-Graphics-Editor/
+│
+├── main.c
+├── graphics.h
+├── graphics.c
+├── README.md
+└── screenshots/
+8-Day Development Plan
+Day 1: Initialize Canvas
+
+Tasks
+
+Create a 2D character array.
+Fill it with _.
+Display the picture.
+
+Functions
+
+void clearPicture();
+void displayPicture();
+
+Commit Message
+
+git commit -m "Implemented picture initialization and display"
+Day 2: Draw Line
+
+Tasks
+
+Draw horizontal line.
+Draw vertical line.
+
+Function
+
+void drawLine(int x1, int y1, int x2, int y2);
+
+Sample Output
+
+____________________
+_____********_______
+____________________
+
+Commit Message
+
+git commit -m "Implemented line drawing"
+Day 3: Draw Rectangle
+
+Tasks
+
+Draw rectangle using *.
+
+Function
+
+void drawRectangle(int x, int y, int width, int height);
+
+Sample Output
+
+____________________
+___********_________
+___********_________
+___********_________
+____________________
+
+PROMPT 2:
+Evaluation Rubrics:
+
+Total marks: 5
+Copied Caught -  0 marks.
+No submission - 1 mark. 
+Copied  - 2 marks.
+Original partially complete - 3 marks.
+Original almost complete - 4 marks.
+Original Complete - 5 marks.
+Problem Statement: Write a 2d graphics editor using * and  _.
+
+Write functions to draw a circle, rectangle, line, and triangle.
+You should be able to
+      add objects to the picture,
+      delete objects from the picture, and
+       modify objects in the picture.
+Use a 2d array of characters to store the picture.
+Write a function to display the picture.   as per the given prompt give me output  
+
+Ans:====================================
+        2D GRAPHICS EDITOR
+====================================
+
+1. Add Object
+2. Delete Object
+3. Modify Object
+4. Display Picture
+5. Exit
+
+Enter Choice: 1
+
+Select Shape:
+1. Line
+2. Rectangle
+3. Circle
+4. Triangle
+
+Enter Shape Choice: 2
+Enter x coordinate: 5
+Enter y coordinate: 2
+Enter width: 12
+Enter height: 4
+
+Rectangle Added Successfully!
+
+Enter Choice: 1
+Enter Shape Choice: 3
+Enter center x: 35
+Enter center y: 8
+Enter radius: 3
+
+Circle Added Successfully!
+
+Enter Choice: 1
+Enter Shape Choice: 4
+Enter x coordinate: 15
+Enter y coordinate: 15
+Enter height: 5
+
+Triangle Added Successfully!
+
+Enter Choice: 1
+Enter Shape Choice: 1
+Enter x1: 50
+Enter y1: 18
+Enter x2: 70
+Enter y2: 18
+
+Line Added Successfully!
+
+Enter Choice: 4
+Displayed Picture
+________________________________________________________________________________
+________________________________________________________________________________
+_____************_______________________________________________________________
+_____************_______________________________________________________________
+_____************_______________________________________________________________
+_____************_______________________________________________________________
+___________________________________***__________________________________________
+__________________________________*___*_________________________________________
+_________________________________*_____*________________________________________
+__________________________________*___*_________________________________________
+___________________________________***__________________________________________
+________________________________________________________________________________
+________________________________________________________________________________
+________________________________________________________________________________
+________________________________________________________________________________
+_______________*________________________________________________________________
+______________***_______________________________________________________________
+_____________*****______________________________________________________________
+____________*******_____________________________*********************___________
+___________*********____________________________________________________________
+________________________________________________________________________________
+________________________________________________________________________________
+________________________________________________________________________________
+________________________________________________________________________________
+Delete Operation
+Enter Choice: 2
+Enter Object Number: 2
+
+Object Deleted Successfully!
+Modify Operation
+Enter Choice: 3
+Enter Object Number: 3
+Enter New Height: 7
+
+Object Modified Successfully!
+Exit
+Enter Choice: 5
+
+Thank You for Using 2D Graphics Editor.
+Program Terminated Successfully.
+
+This is a proper sample output demonstrating all required operations:
+
+✅ Add Object
+✅ Draw Line
+✅ Draw Rectangle
+✅ Draw Circle
+✅ Draw Triangle
+✅ Delete Object
+✅ Modify Object
+✅ Display Picture
+✅ Exit Program
